@@ -1,9 +1,10 @@
 .headerbox{
-    margin:auto;
+    
     width: 100%;
     text-align: center;
-    background-color:azure;
-    padding:50px;
+    background: linear-gradient(to top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 10%);
+    padding:100px;
+    
 
 }
 
@@ -14,21 +15,36 @@
 }
 
 body{
+    background-image: url('images/frontbg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0px;
     background-color:antiquewhite;
-    margin:0px;;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 500%;
+}
+
+h1{
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+   
 }
 
 a {
     text-decoration: none;
-    color: black;
+    transition: 700ms ease;
+    color: white;
+    padding-left:150px;
 }
 
 a:hover{
     text-decoration: none;
     color:brown;
-    transition: 0.5s;
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 10px;
 
 }
 

@@ -1,19 +1,41 @@
 .header {
+  margin:auto;
+  width:80%;
   text-align: center;
   padding: 50px;
-  background-color:azure;
+  background-color:#323949;
   font-size: 200%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'VT323', monospace;
   border-left: 200px;
+  margin-bottom: 100px;
+  color:#D1768F;
+  border-radius:20px;
   }
 
 body{
   background-size: 100%;
-  background-color: antiquewhite;
+  background-image: url('images/membersbg.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
 }
 
+p{
+  color:white;
+}
+
+a {
+  text-decoration: none;
+  transition: 700ms ease;
+  color: #ba3c3c;
+}
+
+a:hover{
+  text-decoration: none;
+  color:#71906e;
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 10px;
+
+}
 
 
 @media screen and (max-width: 767px){
